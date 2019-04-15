@@ -1,0 +1,36 @@
+{
+  "name": "hub-first-game",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "lint": "eslint '**/*.js'",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --coverage --verbose --watch",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hub-up/first_game"
+  },
+  "keywords": [],
+  "author": "Hubba Hubba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hub-up/first_game/issues"
+  },
+  "homepage": "https://github.com/hub-up/first_game/blob/master/README.md",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1",
+    "jsdoc": "^3.5.5"
+  }
+}
